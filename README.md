@@ -1,3 +1,3 @@
-#paintjs
+# paintjs
 
 Painting Board made with Vanilajs
