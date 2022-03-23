@@ -11,15 +11,13 @@ body {
 }
 
 .canvas {
-  width: 540px;
-  height: 540px;
   background-color: #ffffff;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
-  margin-bottom: 20px;
 }
 
 .controls {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,10 +49,14 @@ body {
 .controls__colors {
   display: flex;
 }
+
 .controls__color {
   height: 40px;
   width: 40px;
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.controls__color:active {
+  transform: scale(0.9);
 }
